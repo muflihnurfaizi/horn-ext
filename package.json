@@ -1,0 +1,22 @@
+{
+  "name": "mqtt-to-telegrambot",
+  "version": "1.0.0",
+  "description": "receive message from mqtt and forward it to telegramBot",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently --restart-after \"100\" --restart-tries \"-1\" --names \"DB,MQTT\" -c \"bgBlue.bold,bgMagenta.bold\" \"json-server --watch db.json --port 3001\" \"node app\""
+  },
+  "keywords": [
+    "mqtt",
+    "telegram"
+  ],
+  "author": "muflihuns",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "json-server": "^0.17.1",
+    "mqtt": "^4.3.7",
+    "telegraf": "^4.11.2"
+  }
+}

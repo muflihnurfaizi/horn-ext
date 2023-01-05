@@ -1,0 +1,23 @@
+{
+  "botClient": [
+    {
+      "id": 1708420694,
+      "first_name": "Azis",
+      "last_name": "Ubai",
+      "username": "azisubai",
+      "type": "private"
+    },
+    {
+      "id": -1001815903739,
+      "title": "Alarm GI ULTG Berat",
+      "type": "supergroup"
+    },
+    {
+      "id": 1416328535,
+      "first_name": "muflih",
+      "last_name": "nurfaizi",
+      "username": "Muflihuns",
+      "type": "private"
+    }
+  ]
+}
